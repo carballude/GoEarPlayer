@@ -1,0 +1,11 @@
+ -------------------------------
+|				|
+|	GoEar Player		|
+|				|
+ -------------------------------
+
+GoEar Player uses LastFM Audioscrobbler to find similar artists and then performs a search for songs on GoEar.
+
+NOTE:
+GoEar Player requires a LastFM API stored in a file name "api_key.txt" in the same directory.
+

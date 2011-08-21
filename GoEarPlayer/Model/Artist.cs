@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Security.Policy;
 
-namespace GoEarPlayer
+namespace GoEarPlayer.Model
 {
     public class Artist
     {

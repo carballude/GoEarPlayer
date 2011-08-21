@@ -5,7 +5,7 @@ using System.Text;
 using System.Net;
 using System.Xml.Linq;
 
-namespace GoEarPlayer
+namespace GoEarPlayer.Model
 {
     class GoEarSong
     {

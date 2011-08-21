@@ -9,18 +9,20 @@ using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using System.Threading;
+using GoEarPlayer.Model;
+using GoEarPlayer.Controller;
 
-namespace GoEarPlayer
+namespace GoEarPlayer.View
 {
-    public partial class Form1 : Form
+    public partial class PlayerWindow : Form
     {
 
         private Artist _currentArtist;
 
-        public Form1()
+        public PlayerWindow()
         {
             InitializeComponent();
-            ChangeSong("Amaral");
+            ChangeSong(txtArtistName.Text);
         }
 
         private void ChangeSong()
@@ -54,9 +56,17 @@ namespace GoEarPlayer
                 ChangeSong();                
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btNextSong_Click(object sender, EventArgs e)
         {
             ChangeSong();
         }
+
+        private void btChangeArtist_Click(object sender, EventArgs e)
+        {
+            ChangeSong(txtArtistName.Text);
+        }
+
+
+
     }
 }

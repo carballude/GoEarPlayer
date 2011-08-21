@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Security.Policy;
 using System.Net;
+using GoEarPlayer.Model;
 
-namespace GoEarPlayer
+namespace GoEarPlayer.Controller
 {
     class GoEar
     {

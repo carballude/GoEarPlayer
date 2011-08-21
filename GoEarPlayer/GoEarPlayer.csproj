@@ -71,19 +71,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Artist.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\Artist.cs" />
+    <Compile Include="PlayerWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PlayerWindow.Designer.cs">
+      <DependentUpon>PlayerWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="GoEar.cs" />
-    <Compile Include="GoEarSong.cs" />
+    <Compile Include="Model\GoEarSong.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="PlayerWindow.resx">
+      <DependentUpon>PlayerWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
